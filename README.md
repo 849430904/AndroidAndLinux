@@ -12,6 +12,9 @@
 7. [第 0 课第 8 节_在 TQ2440,MINI2440 上搭建视频所用系统](http://blog.csdn.net/w_ww_w/article/details/8526337)
 8. [第 0 课第 9 节_win7 下不能使用 dnw 烧写的替代方法](http://blog.csdn.net/longintchar/article/details/71102073)
 9. [学前班第 1 课第 1 节_怎么看原理图之 GPIO 和门电路](http://blog.csdn.net/lwbeyond/article/details/48195271)
+
+	[怎么看原理图](第二期驱动/pic/怎么看原理图.jpg)
+	
 10. [学前班第 1 课第 2.1 节_怎么看原理图之协议类接口之 UART](http://blog.csdn.net/PZ0605/article/details/53214155)
 11. [学前班第 1 课第 2.2 节_怎么看原理图之协议类接口之 I2C](http://blog.csdn.net/PZ0605/article/details/53214518)
 12. [学前班第 1 课第 2.3 节_怎么看原理图之协议类接口之 SPI](http://blog.csdn.net/PZ0605/article/details/53215608)
