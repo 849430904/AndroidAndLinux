@@ -27,11 +27,24 @@
 19. [第 01 课 环境搭建及工具、概念介绍](http://blog.csdn.net/PZ0605/article/details/53228735)
 20. [第02课 GPIO实验](http://blog.csdn.net/PZ0605/article/details/53229277)
 21. [第 03 课 存储管理器实验](http://blog.csdn.net/pz0605/article/details/53233994)
+
+	[GPIO相关代码](第一期Linux基础/hard_code) [点亮LED](第一期Linux基础/hard_code/gpio/led_on_c/led_on_c.c) [按键LED](第一期Linux基础/hard_code/gpio/key_led/key_led.c) [汇编](第一期Linux基础/hard_code/gpio/key_led/crt0.S) [点亮LED的makefile](第一期Linux基础/hard_code/gpio/key_led/Makefile)
+	
 22. [第04课 MMU实验](http://blog.csdn.net/PZ0605/article/details/53236766)
+
+	[MMU源码](第一期Linux基础/hard_code/mmu)
 23. [第 05 课 NAND FLASH 控制器](http://blog.csdn.net/PZ0605/article/details/53239649)
+
+	[NAND FLASH源码](第一期Linux基础/hard_code/nand)
 24. [第 06 课 中断控制器](http://blog.csdn.net/PZ0605/article/details/53239884)
+
+	[中断控制器源码](第一期Linux基础/hard_code/int)
 25. [第 07 课 系统时钟和 UART 实验](http://blog.csdn.net/PZ0605/article/details/53242744)
+
+	[系统时钟和 UART 实验代码](第一期Linux基础/hard_code/uart)
 26. [第08课 LCD实验](http://blog.csdn.net/PZ0605/article/details/53246715)
+
+	[LCD实现代码](第一期Linux基础/hard_code/lcd)  [LCD核心代码](第一期Linux基础/hard_code/lcd/lcdlib.c)
 27. [第 09 课第 1 节 u-boot 分析之编译体验](http://blog.csdn.net/PZ0605/article/details/53248263)
 28. [第 09 课第 2 节 u-boot 分析之 Makefile 结构分析](http://blog.csdn.net/PZ0605/article/details/53248532)
 29. [第09课第3节 u-boot分析之源码第1阶段](http://blog.csdn.net/ce123_zhouwei/article/details/7304909)
