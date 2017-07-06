@@ -101,17 +101,31 @@
 
 
 1. [第 12 课第 8 节 字符设备驱动程序之定时器防抖动](http://blog.csdn.net/lwj103862095/article/details/17589311)
+
+	[定时器去抖动代码](第一期Linux基础/drivers_and_test_code/7th_buttons_all)
 2. [第 13 课第 1 节 输入子系统概念介绍](http://blog.csdn.net/lwj103862095/article/details/17733993)
+
+	[子系统框.pic](第一期Linux基础/pic/input1.jpg)  [子系统框架.txt](第一期Linux基础/doc/input子系统.TXT)
 1. [第 13 课第 2 节 输入子系统第编写驱动程序](http://blog.csdn.net/tianzhihen_wq/article/details/42153543)
+
+	[代码](第一期Linux基础/drivers_and_test_code/8th_buttons_input)
 2. [第 14 课 驱动程序分层分离概念_总线驱动设备模型](http://blog.csdn.net/ymangu666/article/details/39612867)
+
+	[驱动分层源码](第一期Linux基础/drivers_and_test_code/9th_led_bus_drv_dev) [分层分离.jpg](第一期Linux基础/pic/分层分离.jpg)
 3. [第 15 课第 1 节 LCD 驱动程序之层次分析](http://blog.csdn.net/guoguoguilai/article/details/54932536)
+
+	[LCD驱动程序.TXT](第一期Linux基础/doc/LCD驱动程序.TXT)  [LCD.jpg](第一期Linux基础/pic/LCD.jpg)
 4. 第 15 课第 2 节 LCD 驱动程序之硬件操作
+
+	[LCD硬件操作步骤](第一期Linux基础/pic/LCD2.png)
 5. [第 15 课第 3 节 LCD 驱动程序之编写代码之 1 初步编写](http://www.cnblogs.com/yihujiu/p/6391141.html)
+
+	[代码1](第一期Linux基础/drivers_and_test_code/10th_lcd/1th) [代码2](第一期Linux基础/drivers_and_test_code/10th_lcd/2th)
 6. 第 15 课第 3 节 LCD 驱动程序之编写代码之 2 硬件设置
 7. [第 15 课第 3 节 LCD 驱动程序之编写代码之 3 显存和调色板设置](http://blog.163.com/fade_alike/blog/static/251873016201571294258954/)
 8. 第 15 课第 4 节 LCD 驱动程序之编译测试
 9. [第 16 课第 1 节 触摸屏驱动程序之概念介绍](http://blog.csdn.net/fight_onlyfor_you/article/details/61429472)
-10. 第 16 课第 2 节 [触摸屏驱动程序之编写驱动](http://blog.csdn.net/fight_onlyfor_you/article/details/61920361)
+10. [第 16 课第 2 节触摸屏驱动程序之编写驱动](http://blog.csdn.net/fight_onlyfor_you/article/details/61920361)
 11. [第 16 课第 3 节 触摸屏驱动程序之使用 TSLIB 测试](http://blog.chinaunix.net/uid-432947-id-2124804.html)
 12. [第 17 课第 1 节 USB 驱动程序之概念介绍](http://blog.csdn.net/qingkongyeyue/article/details/53363090)
 13. [第 17 课第 2 节 USB 驱动程序之 USB 总线驱动程序](http://blog.csdn.net/fight_onlyfor_you/article/details/62059582)
@@ -121,16 +135,16 @@
 17. [第 18 课第 2 节 块设备驱动程序的框架](http://blog.csdn.net/lwj103862095/article/details/38088497)
 18. [第 18 课第 3 节 块设备驱动程序的编写驱动之用内存模拟磁盘](http://blog.csdn.net/ruoyunliufeng/article/details/25240899)
 19. [第 19 课第 1 节 NAND FLASH 原理及硬件操作](http://blog.csdn.net/fight_onlyfor_you/article/details/65632970)
-20. [第 19 课第 2 节 NAND FLASH 驱动程序框架](http://blog.csdn.net/fight_onlyfor_you/article/details/67633334)
+20. [第 19 课第2节 NAND FLASH 驱动程序框架](http://blog.csdn.net/fight_onlyfor_you/article/details/67633334)
 21. [第 19 课第 3 节 NAND FLASH 驱动程序之编写代码之 1 简单编写](http://blog.csdn.net/fight_onlyfor_you/article/details/68484083)
 22. 第 19 课第 3 节 NAND FLASH 驱动程序之编写代码之 2 完善识别过程
-23.[ 第 19 课第 3 节 NAND FLASH 驱动程序之编写代码之 3 添加 MTD 设备及测试](http://blog.csdn.net/eilianlau/article/details/6961406)
+23. [第 19 课第 3 节 NAND FLASH 驱动程序之编写代码之 3添加MTD设备及测试](http://blog.csdn.net/eilianlau/article/details/6961406)
 24. 第 20 课第 1 节 NOR FLASH 原理及硬件操作
 25. [第 20 课第 2 节 NOR FLASH 驱动程序之框架](http://blog.csdn.net/fight_onlyfor_you/article/details/68484083)
 26. [第 20 课第 3 节 NOR FLASH 驱动程序之编写代码](http://blog.csdn.net/sanmaoljh/article/details/51103184)
 27. [第 21 课第 1 节 网卡驱动程序之框架](http://blog.csdn.net/fight_onlyfor_you/article/details/68576706/)
 28. [第 21 课第 2 节 网卡驱动程序之编写虚拟网卡](http://blog.csdn.net/fight_onlyfor_you/article/details/68938520)
-29. [第 22 课第 1 节 移植 DM9000C 驱动程序之确定相异性]http://blog.csdn.net/qingkongyeyue/article/details/71155529)
+29. [第 22 课第 1 节 移植 DM9000C 驱动程序之确定相异性](http://blog.csdn.net/qingkongyeyue/article/details/71155529)
 30. [第 22 课第 2 节 移植 DM9000C 驱动程序之设置时序](http://blog.csdn.net/qingkongyeyue/article/details/71188720)
 31. [第 22 课第 3 节 移植 DM9000C 驱动程序之测试及内存控制器简介](http://blog.csdn.net/qingkongyeyue/article/details/71189640)
 32. [第 23 课第 1 节 I2C 设备裸板程序之 I2C 总线介绍](http://blog.csdn.net/ghostyu/article/details/8094049)
