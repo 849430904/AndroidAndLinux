@@ -29,7 +29,7 @@ int main(int argc, char **argv)
 
 	//signal(SIGIO, my_signal_fun);
 	
-	fd = open("/dev/buttons", O_RDWR | O_NONBLOCK);
+	fd = open("/dev/buttons", O_RDWR | O_NONBLOCK);//注意这里的打开方式 O_NONBLOCK表示为阻塞打开
 	if (fd < 0)
 	{
 		printf("can't open!\n");
@@ -47,7 +47,7 @@ int main(int argc, char **argv)
 	{
 		ret = read(fd, &key_val, 1);
 		printf("key_val: 0x%x, ret = %d\n", key_val, ret);
-		sleep(5);
+		sleep(5);//以非阻塞（O_NONBLOCK）打开；非阻塞的方式打开的时候，调用read的时候会立即返回，需要休眠一下防止上面不停的打印
 	}
 	
 	return 0;

@@ -20,9 +20,9 @@ int main(int argc, char **argv)
 
 	while (1)
 	{
-		//read(fd, &key_val, 1);
-		//printf("key_val = 0x%x\n", key_val);
-		sleep(5);
+		read(fd, &key_val, 1);//执行完这一句时，如果没有中断发生，就会休眠
+		printf("key_val = 0x%x\n", key_val);
+		//sleep(5);
 	}
 	
 	return 0;

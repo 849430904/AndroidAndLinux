@@ -26,7 +26,7 @@ int main(int argc, char **argv)
 	fds[0].events = POLLIN;
 	while (1)
 	{
-		ret = poll(fds, 1, 5000);
+		ret = poll(fds, 1, 5000);//如果5秒之内没有返回，就返回为0
 		if (ret == 0)
 		{
 			printf("time out\n");

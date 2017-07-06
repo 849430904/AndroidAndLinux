@@ -60,16 +60,36 @@
 39. 第 11 课第 3 节 构建根文件系统之 busybox
 40. [第 11 课第 4 节 构建根文件系统之构建根文件系统](http://www.cnblogs.com/lovechen/p/5720506.html)
 41. [第 12 课第 1 节 字符设备驱动程序之概念介绍](http://m.blog.csdn.net/weicao1990/article/details/50586044)
+
+	[源码](第二期驱动/drivers_and_test/first_drv)
 42. [第 12 课第 2.1 节 字符设备驱动程序之 LED 驱动程序_编写编译](http://blog.csdn.net/Pris_oner/article/details/51594972)
+
+	[源码](第二期驱动/drivers_and_test/first_drv)
 43. [第 12 课第 2.2 节 字符设备驱动程序之 LED 驱动程序_测试改进](http://blog.csdn.net/Pris_oner/article/details/51595444)
 44. [第 12 课第 2.3 节 字符设备驱动程序之 LED 驱动程序_操作 LED](http://blog.csdn.net/Pris_oner/article/details/51673827)
 45. [第 12 课第 3 节 字符设备驱动程序之查询方式的按键驱动程序](http://blog.csdn.net/Pris_oner/article/details/51673984)
+
+	[源码](第二期驱动/drivers_and_test/second_drv)  [应用程序查询按键](第二期驱动/drivers_and_test/second_drv/seconddrvtest.c)
 46. [第 12 课第 4.1 节 字符设备驱动程序之中断方式的按键驱动_Linux 异常处理结构](http://www.cnblogs.com/orangeJuice/articles/5907075.html)
+
+	[异常处理流程.pic](第一期Linux基础/pic/exception.png)
 47. [第 12 课第 4.2 节 字符设备驱动程序之中断方式的按键驱动_Linux 中断处理结构](http://blog.csdn.net/Pris_oner/article/details/51745800)
-48. 第 12 [课第 4.3 节 字符设备驱动程序之中断方式的按键驱动_编写代码](http://blog.csdn.net/lwj103862095/article/details/17511867)
+
+	[中断流程.pic](第一期Linux基础/pic/ir1.png) [中断流程2.pic](第一期Linux基础/pic/ir2.png)
+48. [第 12 课第 4.3 节 字符设备驱动程序之中断方式的按键驱动_编写代码](http://blog.csdn.net/lwj103862095/article/details/17511867)
+
+	[源码](第二期驱动/drivers_and_test/third_drv)
 49. [第 12 课第 5 节 字符设备驱动程序之 poll 机制](http://blog.csdn.net/qlexcel/article/details/51560306)
+
+	[按键深入poll机制源码](第二期驱动/drivers_and_test/forth_drv) 应用程序要求在指定的时间内返回
 50. [第 12 课第 6 节 字符设备驱动程序之异步通知](http://blog.csdn.net/qlexcel/article/details/51563802)
+
+
+	[源码](drivers_and_test_code/fifth_drv) 驱动主动通知应用程序数据改变
+
 51. [第 12 课第 7 节 字符设备驱动程序之同步互斥阻塞](http://www.cnblogs.com/-glb/p/7078359.html)
+
+	[源码](第一期Linux基础/drivers_and_test_code/sixth_drv)
 
 
 ---
