@@ -34,20 +34,20 @@ static DEFINE_SPINLOCK(ramblock_lock);
 
 #define RAMBLOCK_SIZE (1024*1024)
 static unsigned char *ramblock_buf;
-
+/*几何属性*/ 
 static int ramblock_getgeo(struct block_device *bdev, struct hd_geometry *geo)
 {
 	/* 容量=heads*cylinders*sectors*512 */
-	geo->heads     = 2;
-	geo->cylinders = 32;
-	geo->sectors   = RAMBLOCK_SIZE/2/32/512;
+	geo->heads     = 2;//多少面  
+	geo->cylinders = 32;//多少环  
+	geo->sectors   = RAMBLOCK_SIZE/2/32/512;//一环有多少扇区  
 	return 0;
 }
 
 
 static struct block_device_operations ramblock_fops = {
-	.owner	= THIS_MODULE,
-	.getgeo	= ramblock_getgeo,
+	.owner	= THIS_MODULE, //一个指向拥有该结构的模块指针，通常设为 THIS_MODULE  
+	.getgeo	= ramblock_getgeo, //几何属性  
 };
 
 static void do_ramblock_request(request_queue_t * q)

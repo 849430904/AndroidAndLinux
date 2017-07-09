@@ -111,10 +111,14 @@
 	[代码](第一期Linux基础/drivers_and_test_code/8th_buttons_input)
 2. [第 14 课 驱动程序分层分离概念_总线驱动设备模型](http://blog.csdn.net/ymangu666/article/details/39612867)
 
-	[驱动分层源码](第一期Linux基础/drivers_and_test_code/9th_led_bus_drv_dev) [分层分离.jpg](第一期Linux基础/pic/分层分离.jpg)
+	[平台设备源码](第一期Linux基础/drivers_and_test_code/9th_led_bus_drv_dev/led_dev.c)  [平台驱动源码](第一期Linux基础/drivers_and_test_code/9th_led_bus_drv_dev/led_drv.c) [分层分离.jpg](第一期Linux基础/pic/分层分离.jpg) [==driver_register注册过程分析==](http://blog.csdn.net/richard_liujh/article/details/45825333)
+
+	*实现了驱动硬件易变部份与驱动稳定逻辑代码的分离*
 3. [第 15 课第 1 节 LCD 驱动程序之层次分析](http://blog.csdn.net/guoguoguilai/article/details/54932536)
 
 	[LCD驱动程序.TXT](第一期Linux基础/doc/LCD驱动程序.TXT)  [LCD.jpg](第一期Linux基础/pic/LCD.jpg)
+
+	[LCD驱动系统文章](http://www.cnblogs.com/yangjiguang/p/6080116.html)
 4. 第 15 课第 2 节 LCD 驱动程序之硬件操作
 
 	[LCD硬件操作步骤](第一期Linux基础/pic/LCD2.png)
@@ -125,25 +129,65 @@
 7. [第 15 课第 3 节 LCD 驱动程序之编写代码之 3 显存和调色板设置](http://blog.163.com/fade_alike/blog/static/251873016201571294258954/)
 8. 第 15 课第 4 节 LCD 驱动程序之编译测试
 9. [第 16 课第 1 节 触摸屏驱动程序之概念介绍](http://blog.csdn.net/fight_onlyfor_you/article/details/61429472)
+
+	[触摸屏驱动程序.TXT](第一期Linux基础/doc/触摸屏驱动程序.TXT)  [触摸屏.jpg](第一期Linux基础/pic/触摸屏.jpg)  [触摸屏驱动框架](第一期Linux基础/drivers_and_test_code/11th_ts/1th/s3c_ts.c) 
 10. [第 16 课第 2 节触摸屏驱动程序之编写驱动](http://blog.csdn.net/fight_onlyfor_you/article/details/61920361)
+
+	[代码](第一期Linux基础/drivers_and_test_code/11th_ts/8th/s3c_ts.c)  [Makefile](第一期Linux基础/drivers_and_test_code/11th_ts/8th/Makefile)
 11. [第 16 课第 3 节 触摸屏驱动程序之使用 TSLIB 测试](http://blog.chinaunix.net/uid-432947-id-2124804.html)
+
+	[tslib编译使用方法.TXT](第一期Linux基础/doc/tslib编译使用方法.TXT)
 12. [第 17 课第 1 节 USB 驱动程序之概念介绍](http://blog.csdn.net/qingkongyeyue/article/details/53363090)
+
+	[USB设备驱动程序.jpg](第一期Linux基础/pic/USB设备驱动程序.jpg) [USB设备驱动程序.TXT](第一期Linux基础/doc/USB设备驱动程序.TXT) [USB描述符.bmp](第一期Linux基础/doc/USB描述符.bmp)  [USB驱动框架代码](第一期Linux基础/drivers_and_test_code/12th_usb/1th/usbmouse_as_key.c)
 13. [第 17 课第 2 节 USB 驱动程序之 USB 总线驱动程序](http://blog.csdn.net/fight_onlyfor_you/article/details/62059582)
+
+	[发现USB设备驱动代码](第一期Linux基础/drivers_and_test_code/12th_usb/2th/usbmouse_as_key.c)  
 14. [第 17 课第 3 节 USB 驱动程序之 USB 设备驱动程序 1 简单编写](http://blog.csdn.net/fight_onlyfor_you/article/details/64127744)
+
+	[代码](第一期Linux基础/drivers_and_test_code/12th_usb/3th/usbmouse_as_key.c)
 15. [第 17 课第 3 节 USB 驱动程序之 USB 设备驱动程序 2 鼠标用作键盘](http://blog.csdn.net/pz0605/article/details/74075027)
-16.[ 第 18 课第 1 节 块设备驱动程序的引入](http://blog.csdn.net/guoguoguilai/article/details/55665699)
+
+	[代码](第一期Linux基础/drivers_and_test_code/12th_usb/4th/usbmouse_as_key.c)
+16. [第 18 课第 1 节 块设备驱动程序的引入](http://blog.csdn.net/guoguoguilai/article/details/55665699)
+
+	[块设备驱动程序的引入.jpg](第一期Linux基础/pic/块设备驱动程序的引入.jpg) [块设备驱动程序.TXT](第一期Linux基础/doc/声卡驱动程序.TXT)
 17. [第 18 课第 2 节 块设备驱动程序的框架](http://blog.csdn.net/lwj103862095/article/details/38088497)
+
+	[块设备驱动程序框架代码1](第一期Linux基础/drivers_and_test_code/13th_ramblock/1th/ramblock.c) [块设备驱动程序框架代码2](第一期Linux基础/drivers_and_test_code/13th_ramblock/2th/ramblock.c)
 18. [第 18 课第 3 节 块设备驱动程序的编写驱动之用内存模拟磁盘](http://blog.csdn.net/ruoyunliufeng/article/details/25240899)
+
+	[代码1](第一期Linux基础/drivers_and_test_code/13th_ramblock/4th/ramblock.c)  [代码2](第一期Linux基础/drivers_and_test_code/13th_ramblock/5th/ramblock.c)
 19. [第 19 课第 1 节 NAND FLASH 原理及硬件操作](http://blog.csdn.net/fight_onlyfor_you/article/details/65632970)
+
+	[NAND FLASH驱动程序.jpg](第一期Linux基础/pic/NAND FLASH驱动程序.jpg)  [NAND FLASH驱动程序.TXT](第一期Linux基础/doc/NAND FLASH驱动程序.TXT)
 20. [第 19 课第2节 NAND FLASH 驱动程序框架](http://blog.csdn.net/fight_onlyfor_you/article/details/67633334)
+
+	[代码1](第一期Linux基础/drivers_and_test_code/14th_nand/1th/s3c_nand.c)
 21. [第 19 课第 3 节 NAND FLASH 驱动程序之编写代码之 1 简单编写](http://blog.csdn.net/fight_onlyfor_you/article/details/68484083)
+
+	[代码](第一期Linux基础/drivers_and_test_code/14th_nand/2th/s3c_nand.c)
 22. 第 19 课第 3 节 NAND FLASH 驱动程序之编写代码之 2 完善识别过程
+
+	[代码](第一期Linux基础/drivers_and_test_code/14th_nand/3th/s3c_nand.c)
 23. [第 19 课第 3 节 NAND FLASH 驱动程序之编写代码之 3添加MTD设备及测试](http://blog.csdn.net/eilianlau/article/details/6961406)
+
+	[代码](第一期Linux基础/drivers_and_test_code/14th_nand/4th/s3c_nand.c)
 24. 第 20 课第 1 节 NOR FLASH 原理及硬件操作
+
+	[NOR FLASH驱动程序.TXT](第一期Linux基础/doc/NOR FLASH驱动程序.TXT) [ NOR FLASH驱动程序.jpg](第一期Linux基础/pic/NOR FLASH驱动程序.jpg)
 25. [第 20 课第 2 节 NOR FLASH 驱动程序之框架](http://blog.csdn.net/fight_onlyfor_you/article/details/68484083)
+
+	[代码](第一期Linux基础/drivers_and_test_code/15th_nor/1th/s3c_nor.c)
 26. [第 20 课第 3 节 NOR FLASH 驱动程序之编写代码](http://blog.csdn.net/sanmaoljh/article/details/51103184)
+
+	[代码](第一期Linux基础/drivers_and_test_code/15th_nor/2th/s3c_nor.c)
 27. [第 21 课第 1 节 网卡驱动程序之框架](http://blog.csdn.net/fight_onlyfor_you/article/details/68576706/)
+
+	[网卡驱动程序.jpg](第一期Linux基础/pic/网卡驱动程序.jpg) [网卡驱动程序.TXT](第一期Linux基础/doc/网卡驱动程序.TXT)  [框架代码1](第一期Linux基础/drivers_and_test_code/16th_virt_net/1th/virt_net.c) [框架代码2](第一期Linux基础/drivers_and_test_code/16th_virt_net/2th/virt_net.c)
 28. [第 21 课第 2 节 网卡驱动程序之编写虚拟网卡](http://blog.csdn.net/fight_onlyfor_you/article/details/68938520)
+
+	[代码1](第一期Linux基础/drivers_and_test_code/16th_virt_net/3th/virt_net.c)  [代码2](第一期Linux基础/drivers_and_test_code/16th_virt_net/4th/virt_net.c)
 29. [第 22 课第 1 节 移植 DM9000C 驱动程序之确定相异性](http://blog.csdn.net/qingkongyeyue/article/details/71155529)
 30. [第 22 课第 2 节 移植 DM9000C 驱动程序之设置时序](http://blog.csdn.net/qingkongyeyue/article/details/71188720)
 31. [第 22 课第 3 节 移植 DM9000C 驱动程序之测试及内存控制器简介](http://blog.csdn.net/qingkongyeyue/article/details/71189640)

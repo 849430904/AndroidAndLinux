@@ -115,7 +115,7 @@ struct platform_driver led_drv = {
 };
 
 
-static int led_drv_init(void)
+static int led_dev_init(void)
 {
 	platform_driver_register(&led_drv);
 	return 0;
