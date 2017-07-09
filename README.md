@@ -13,7 +13,7 @@
 8. [第 0 课第 9 节_win7 下不能使用 dnw 烧写的替代方法](http://blog.csdn.net/longintchar/article/details/71102073)
 9. [学前班第 1 课第 1 节_怎么看原理图之 GPIO 和门电路](http://blog.csdn.net/lwbeyond/article/details/48195271)
 
-	[怎么看原理图](第二期驱动/pic/怎么看原理图.jpg)
+	[怎么看原理图](第二期驱动/pic/怎么看原理图.jpg)   [怎么看原理图.TXT](第二期驱动/doc/怎么看原理图.TXT)
 	
 10. [学前班第 1 课第 2.1 节_怎么看原理图之协议类接口之 UART](http://blog.csdn.net/PZ0605/article/details/53214155)
 11. [学前班第 1 课第 2.2 节_怎么看原理图之协议类接口之 I2C](http://blog.csdn.net/PZ0605/article/details/53214518)
@@ -193,10 +193,18 @@
 31. [第 22 课第 3 节 移植 DM9000C 驱动程序之测试及内存控制器简介](http://blog.csdn.net/qingkongyeyue/article/details/71189640)
 32. [第 23 课第 1 节 I2C 设备裸板程序之 I2C 总线介绍](http://blog.csdn.net/ghostyu/article/details/8094049)
 33. 第 23 课第 2 节 I2C 设备裸板程序之编写代码
+
+	[代码](第二期驱动/drivers_and_test/18th_i2c/at24cxx)
 34. 第 23 课第 3 节 I2C 设备裸板程序之测试
 35. 第 24 课第 1 节 I2C 驱动程序之框架
+
+	[I2C驱动程序.jpg](第一期Linux基础/pic/I2C驱动程序.jpg) [I2C驱动程序.TXT](第二期驱动/doc/I2C驱动程序.TXT)  [代码1](第二期驱动/drivers_and_test/19th_i2c_drv/1th)  [代码2](第二期驱动/drivers_and_test/19th_i2c_drv/2th)
 36. 第 24 课第 2 节 I2C 驱动程序之编写代码
+
+	[代码](第二期驱动/drivers_and_test/19th_i2c_drv/5th)
 37. [第 25 课第 1 节 字符设备驱动程序概念纠正之另一种写法](http://liu1227787871.blog.163.com/blog/static/20536319720125373258550/)
+
+	[字符设备驱动程序的另一种写法.jpg](第二期驱动/pic/字符设备驱动程序的另一种写法.jpg)  [代码](第二期驱动/drivers_and_test/20th_chrdev_another)
 38. [第 25 课第 2 节 字符设备驱动程序概念纠正之 RTC 驱动分析](http://blog.csdn.net/fight_onlyfor_you/article/details/69263477)
 39. [第 26 课第 1 节 声音采集播放及 IIS 接口介绍](http://blog.csdn.net/qingkongyeyue/article/details/70198192)
 40. [第 26 课第 2 节 UDA1341 芯片之 L3 接口介绍](http://blog.csdn.net/qingkongyeyue/article/details/70198960)
@@ -204,6 +212,8 @@
 42. 第 26 课第 4 节 WM9876 声卡驱动程序编写及测试
 43. 第26课第5节 使用madplay播放mp3文件
 44. [第 27 课第 1 节_DMA 的引入](http://blog.csdn.net/fight_onlyfor_you/article/details/69524310)
+
+	[DMA.jpg](第二期驱动/pic/DMA.jpg)
 45. [第 27 课第 2 节_DMA 驱动程序之编写](http://blog.csdn.net/jingzhesiye/article/details/8610865)
 46. 第 27 课第 3 节_DMA 驱动程序之测试
 47. 第 27 课第 4 节_DMA 之内核函数简单介绍
